@@ -241,7 +241,7 @@ All rights reserved."
     if $VIDEO_MODE; then
       local destination="/mnt/movies/"
     else
-      local destination="/mnt/music/beatz"
+      local destination="/mnt/music/beatz/"
     fi
   else
     local destination="$CUSTOM_DESTINATION"
