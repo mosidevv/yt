@@ -239,9 +239,9 @@ All rights reserved."
   # set paths
   if ! $CUSTOM_DESTINATION; then
     if $VIDEO_MODE; then
-      local destination="~/Movies/yt/"
+      local destination="/mnt/movies/"
     else
-      local destination="~/Music/yt/"
+      local destination="/mnt/music/beatz"
     fi
   else
     local destination="$CUSTOM_DESTINATION"
